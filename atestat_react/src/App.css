@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+  background-color: rgba(185, 175, 175, 0.5) !important;
+  font-size: large !important;
+}
+a{
+  color: #333;
+  text-decoration: none;
+}
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:150px;
+}
+nav ul a {
+  color: rgb(48, 199, 106) !important;
+}
+nav  a {
+  color: rgb(48, 199, 106) !important;
+}
+
+nav a:hover{
+  color: rgb(255, 255, 255) !important;
+}
+nav ul a:hover{
+  color: rgb(255, 255, 255) !important;
+}
+
+Form button{
+  margin: 0 30%;
+  width: 40%;
+}
+

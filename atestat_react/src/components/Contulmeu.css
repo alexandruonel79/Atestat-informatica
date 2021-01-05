@@ -1,0 +1,24 @@
+div img {
+    transition:transform 0.25s ease;
+}
+
+div img:hover {
+    -webkit-transform:scale(2.0);
+    transform:scale(2.0);
+}
+span{
+    font-family: sans-serif;
+    font-size: 150%;
+}
+p{
+    font-family: sans-serif;
+    font-size: 150%;
+}
+
+.nume_colorat{
+    color:rgba(22, 80, 206, 0.514);
+}
+.card{
+    font-family: sans-serif;
+    font-size: 100%;
+}
