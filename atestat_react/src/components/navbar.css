@@ -1,0 +1,4 @@
+nav a img:hover {
+    -webkit-transform:none;
+    transform:none;
+}

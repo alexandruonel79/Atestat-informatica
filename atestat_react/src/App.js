@@ -16,11 +16,11 @@ function App() {
       <Navbar />
       <br></br>
       <Router>
-        <Switch>
-            <Route path="/"  exact component={Search}/>
+       
+            <Route path="/cauta_anunt"  exact component={Search}/>
           <Route path="/creare_anunt" component={Anunturi}/>
           <Route path="/contul_meu" component={Contulmeu}/>
-        </Switch>
+
       </Router>
     </div>
 

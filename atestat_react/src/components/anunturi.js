@@ -286,8 +286,18 @@ function append_array()
  
   <div class="form-row">
     <div class="form-group col-md-6">
-      <label for="inputCity">Oras</label>
-      <input type="text" class="form-control" id="inputCity" value={oras} onChange={e => setoras(e.target.value)}/>
+    <select class="form-control" value={oras} onChange={e => setoras(e.target.value)}>
+              <option>Bucuresti</option>
+              <option>Ilfov</option>
+              <option>Giurgiu</option>
+              <option>Alba</option>
+              <option>Arad</option>
+              <option>Arges</option>
+              <option>Bacau</option>
+              <option>Brasov</option>
+              <option>Bihor</option>
+    </select>
+      
     </div>
 
 
